@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.lizelu.userinterfacedemo.Main4Activity">
+
+   <FrameLayout
+       android:layout_width="120pt"
+       android:layout_height="120pt"
+       android:background="#00ff00">
+       <FrameLayout
+           android:layout_width="100pt"
+           android:layout_height="100pt"
+           android:background="#00f0f0">
+       </FrameLayout>
+
+       <FrameLayout
+           android:layout_width="80pt"
+           android:layout_height="80pt"
+           android:background="#0000ff">
+       </FrameLayout>
+
+       <FrameLayout
+           android:layout_width="60pt"
+           android:layout_height="60pt"
+           android:background="#00ffff">
+       </FrameLayout>
+
+       <FrameLayout
+           android:layout_width="40pt"
+           android:layout_height="40pt"
+           android:background="#000000">
+       </FrameLayout>
+
+   </FrameLayout>
+
+</RelativeLayout>

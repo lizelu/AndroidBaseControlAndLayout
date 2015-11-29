@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="#be0e0a"
+            android:text="My name is ZeluLi"/>
+
+        <Button
+            android:id="@+id/click_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="点我"/>
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="placeholder: type something here"
+            android:maxLines="3"/>
+
+        <ImageView
+            android:id="@+id/my_image_view"
+            android:layout_width="141dp"
+            android:layout_height="147dp"
+            android:src="@drawable/image01"
+            android:layout_gravity="center"
+            android:alpha="1.0"/>
+
+        <ProgressBar
+            android:id="@+id/my_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="200"/>
+
+        <Button
+            android:id="@+id/show_next_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="线性布局"/>
+
+        <Button
+            android:id="@+id/show_relative__activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="相对布局"/>
+
+        <Button
+            android:id="@+id/show_relative__frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="帧布局"/>
+
+        <Button
+            android:id="@+id/show_relative__table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="表格布局"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

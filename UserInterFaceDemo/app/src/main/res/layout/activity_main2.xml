@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.lizelu.userinterfacedemo.Main2Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--垂直线性布局方式-->
+        <LinearLayout
+            android:layout_width="60pt"
+            android:layout_height="match_parent"
+            android:background="#ff0000"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="aa"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="bb"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cc"
+                android:layout_gravity="right"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--水平线性布局方式-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50pt"
+                android:background="#0000ff"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:text="aa"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bb"
+                    android:layout_gravity="center" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="cc"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00ff00"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0pt"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="你好"/>
+
+                <Button
+                    android:layout_width="0pt"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Android"/>
+
+                <Button
+                    android:layout_width="0pt"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="iOS"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
